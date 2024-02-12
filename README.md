@@ -25,13 +25,13 @@ Getting Started:
 
 Clone the Repository: Clone this repository to your local machine using the following command: ( git clone <repository-url>  ).
 
-Install Dependencies: Navigate to the project directory and install PHP dependencies using Composer: ( 
+Install Dependencies: Navigate to the project directory and install PHP dependencies using Composer:
 
-<ul>
-cd feedback-system
-composer install
+<ul> <p>cd feedback-system</p><p>
+composer install</p> </ul>
+
 </ul>
- ).
+ 
 
  Set Up Environment Variables: Copy the .env.example file to .env and configure environment variables such as database connection details.
  
