@@ -8,31 +8,37 @@ Welcome to our Feedback System! This application allows multiple users to regist
 Features:
 <ul>
 
-    <li>User Authentication: Users can register and login to access the feedback system. </li>
+    User Authentication: Users can register and login to access the feedback system.
+    Dashboard: Upon login, users are directed to their dashboard, where they can view existing feedback and add new feedback.
+    Add Feedback: Users can add feedback by providing a rating from 1 to 5 stars along with their comments.
+    Delete Feedback: Users can delete their own feedback entries.
+    Logout: Users can securely logout from the application when they are done.
 </ul>
 
 
 
-Dashboard: Upon login, users are directed to their dashboard, where they can view existing feedback and add new feedback.
 
-Add Feedback: Users can add feedback by providing a rating from 1 to 5 stars along with their comments.
 
-Delete Feedback: Users can delete their own feedback entries.
 
-Logout: Users can securely logout from the application when they are done.
 
 Getting Started:
 
 Clone the Repository: Clone this repository to your local machine using the following command: ( git clone <repository-url>  ).
 
-Install Dependencies: Navigate to the project directory and install PHP dependencies using Composer: ( cd feedback-system
+Install Dependencies: Navigate to the project directory and install PHP dependencies using Composer: ( 
+
+<ul>
+cd feedback-system
 composer install
+</ul>
  ).
 
  Set Up Environment Variables: Copy the .env.example file to .env and configure environment variables such as database connection details.
-
+ 
+<ul>
  Generate Application Key: Generate a new application key using the following command: ( php artisan key:generate ).
 
  Migrate Database: Run database migrations to create necessary tables: ( php artisan migrate
+ </ul>
  )
 
